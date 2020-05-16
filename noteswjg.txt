@@ -1,0 +1,8 @@
+From:
+	https://bitbucket.org/opensimulator/opensim-libs.git
+
+TODO:
+	make demos work
+	make debugging work
+	make 32 bit compile work (docker build --platform?)
+	compile openjpeg? what is this relative to libopenmetaverse?
