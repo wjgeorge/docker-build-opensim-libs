@@ -3,6 +3,6 @@ all: build run
 
 
 build:
-	docker buildx build . $PLATFORM -t opensim-libs
+	docker build . ${PLATFORM} -t opensim-libs
 run:
-	docker run -it --rm $PLATFORM opensim-libs bash; exit 0
+	docker run -it --rm ${PLATFORM} opensim-libs bash; exit 0
